@@ -1,0 +1,67 @@
+div {
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+div.editor-header-wrap {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(221, 221, 221);
+    padding: 8px 0px;
+}
+
+div.editor-header {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+}
+
+div.lkong-editor-bar {
+    flex: 1 1 0%;
+}
+
+div.lkong-editor-bar-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+button.btn-base {
+    align-items: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    height: 26px;
+    margin: 0px 2px;
+    white-space: nowrap;
+    padding: 0px 6px;
+    background-color: transparent;
+}
+
+button.btn-base > span {
+    fill: rgb(136, 136, 136);
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg.svg-base {
+    width: 20px;
+    height: 20px;
+    fill: currentcolor;
+}
+
+span.span-base {
+    background-color: rgb(235, 235, 235);
+    display: inline-block;
+    height: 20px;
+    margin: 0px 3px;
+    vertical-align: middle;
+    width: 1px;
+}
