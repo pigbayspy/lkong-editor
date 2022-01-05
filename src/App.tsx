@@ -11,6 +11,7 @@ import { ReactComponent as Bracket } from "./assets/bracket.svg";
 import { ReactComponent as Emoji } from "./assets/emoji.svg";
 import { ReactComponent as Link } from "./assets/link.svg";
 import { ReactComponent as Img } from "./assets/img.svg";
+import { ReactComponent as Paragraph } from "./assets/paragraph.svg";
 
 type CustomText = { text: string }
 type CustomElement = { type: string; children: CustomText[] }
@@ -59,6 +60,10 @@ function App() {
               <button className="btn-base">
                 <Emoji className="svg-base" />
               </button>
+              <button className="btn-base">
+                <Paragraph className="svg-base" />
+              </button>
+              <span className="span-base" />
               <button className="btn-base">
                 <Link className="svg-base" />
               </button>
