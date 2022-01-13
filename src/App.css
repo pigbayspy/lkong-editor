@@ -77,3 +77,32 @@ span.span-base {
     vertical-align: middle;
     width: 1px;
 }
+
+.editor-main {
+    margin-top: 10px;
+    background-color: rgb(251, 251, 251);
+    min-height: 400px;
+    color: rgb(51, 51, 51);
+    word-break: break-all;
+}
+
+.bottom-btn-wrap {
+    margin: 10px;
+}
+
+.bottom-btn {
+    width: 100%;
+    color: #fff;
+    background: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    padding: 0;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.bottom-btn > span {
+    display: inline-block;
+}

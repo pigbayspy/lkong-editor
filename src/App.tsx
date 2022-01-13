@@ -83,6 +83,9 @@ function App() {
           <Editable />
         </Slate>
       </div>
+      <div className="bottom-btn-wrap">
+        <button type="button" className="bottom-btn"><span>发表</span></button>
+      </div>
     </div>
   );
 }
