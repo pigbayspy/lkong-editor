@@ -1,3 +1,9 @@
+html {
+  --ant-primary-color: #1890ff;
+  --ant-primary-color-hover: #40a9ff;
+  --ant-primary-color-active: #096dd9;
+}
+
 body {
   color: rgba(0,0,0,.85);
   font-size: 14px;

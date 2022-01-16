@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react"
+import { useState, useMemo } from "react";
 import { createEditor, Descendant } from "slate";
 import { Editable, ReactEditor, Slate, withReact } from "slate-react";
 import "./App.css";

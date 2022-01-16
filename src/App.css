@@ -87,20 +87,28 @@ span.span-base {
 }
 
 .bottom-btn-wrap {
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .bottom-btn {
     width: 100%;
     color: #fff;
-    background: #1890ff;
-    border-color: #1890ff;
+    font-weight: 400;
+    background: var(--ant-primary-color);
+    border-color: var(--ant-primary-color);
     text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
     padding: 0;
     border: 1px solid #d9d9d9;
     box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
     cursor: pointer;
     border-radius: 2px;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.bottom-btn:not([disabled]):hover {
+    color: #fff;
+    border-color: var(--ant-primary-color-hover);
+    background: var(--ant-primary-color-hover);
 }
 
 .bottom-btn > span {
